@@ -1,0 +1,5 @@
+{
+    "task_type": "multiclass", 
+    "n_num_features": 32, 
+    "n_cat_features": 0
+}

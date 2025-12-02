@@ -1,0 +1,5 @@
+{
+    "task_type": "regression",
+	"n_num_features": 4,
+    "n_cat_features": 0
+}

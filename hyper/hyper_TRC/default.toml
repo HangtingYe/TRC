@@ -1,0 +1,4 @@
+embedding_num = 10
+reg_weight = 0.1
+tau = 0.01
+perturb_times = 3

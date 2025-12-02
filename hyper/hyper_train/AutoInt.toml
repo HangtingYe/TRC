@@ -1,0 +1,29 @@
+seed = 0
+n_clusters = 20
+eplison = 0.1
+max_iter = 200
+weight_ = 0.5
+
+[data]
+normalization = "quantile"
+path = "data/abalone"
+y_policy = "mean_std"
+
+[model]
+activation = "relu"
+attention_dropout = 0.1
+d_token = 192
+initialization = "kaiming"
+n_heads = 8
+n_layers = 6
+prenormalization = false
+residual_dropout = 0.1
+
+[training]
+batch_size = 128
+eval_batch_size = 8192
+lr = 0.0001
+n_epochs = 1000000000
+optimizer = "adamw"
+patience = 10
+weight_decay = 1e-5

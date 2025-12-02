@@ -1,0 +1,25 @@
+seed = 0
+
+[data]
+cat_policy = "indices"
+normalization = "quantile"
+
+[model]
+embedding_size = 32
+transformer_depth = 12
+attention_heads = 8
+attention_dropout = 0.1
+ff_dropout = 0.1
+cont_embeddings = "MLP"
+attentiontype = "colrow"
+final_mlp_style = "sep"
+representation_dim = 1000
+
+[training]
+batch_size = 256
+eval_batch_size = 8192
+n_epochs = 1000
+optimizer = "adamw"
+patience = 10
+lr = 0.0001
+weight_decay = 3.21044962433599e-5

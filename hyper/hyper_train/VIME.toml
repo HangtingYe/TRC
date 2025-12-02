@@ -1,0 +1,27 @@
+seed = 0
+n_clusters = 20
+eplison = 0.1
+max_iter = 200
+weight_ = 0.1
+
+[data]
+normalization = "minmax"
+y_policy = "mean_std"
+
+[model]
+p_m = 0.3
+K = 3
+alpha = 2.0
+beta = 1
+embeding_dim = 512
+n_layers = 8
+
+[training]
+batch_size = 128
+eval_batch_size = 8192
+lr = 0.0001
+lr_n_decays = 0
+n_epochs = 1000000000
+optimizer = "adamw"
+patience = 10
+weight_decay = 1e-5
