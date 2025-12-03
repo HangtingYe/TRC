@@ -1,10 +1,14 @@
-# Deep Tabular Representation Corrector (TRC)
 
-### 📄 **[TPAMI 2025 Paper](https://ieeexplore.ieee.org/document/11270244)**
+
+<h1 align="center">
+[TPAMI]Deep Tabular Representation Corrector
+  
+Links: <a href="https://ieeexplore.ieee.org/document/11270244">📄</a>
+</h1>
 
 ## 📖 Overview 
 
-Tabular data are central to many real-world applications, but deep learning methods for tabular tasks often suffer from representation shift and redundancy. Existing approaches either train models from scratch with complex constraints (in-learning) or rely on costly pretraining with hand-crafted tasks (pre-learning). We propose TRC, a model-agnostic Tabular Representation Corrector that improves the representations of any trained deep tabular model without modifying its parameters. TRC introduces two lightweight components: 
+Tabular data are central to many real-world applications, but deep learning methods for tabular tasks often suffer from representation shift and redundancy. Existing approaches either train models from scratch with complex constraints (in-learning) or rely on costly pretraining with hand-crafted tasks (pre-learning). We propose deep **Tabular Representation Corrector (TRC)**, a model-agnostic Tabular Representation Corrector that improves the representations of any trained deep tabular model without modifying its parameters. TRC introduces two lightweight components: 
 - Representation Re-estimation, which learns to correct inherent representation shifts
 - Tabular Space Mapping, which compresses the corrected representations into a compact embedding space while preserving predictive information. 
 
