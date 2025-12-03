@@ -1,7 +1,7 @@
 
 
 <h1 align="center">
-[TPAMI]Deep Tabular Representation Corrector
+[IEEE TPAMI]Deep Tabular Representation Corrector
   
 Links: <a href="https://ieeexplore.ieee.org/document/11270244">📄</a>
 </h1>
@@ -17,7 +17,9 @@ They enhance model representations efficiently. Experiments on multiple benchmar
 <div align="center">
   <img src="./framework.png" alt="The TRC framework" style="max-width: 100%; height: auto;">
 </div>  
- 
+
+## 📚 Usage guideline
+
 ### Running example
 ```bash
 # Basic usage
@@ -59,13 +61,13 @@ Specifically,each dataset folder args.dataset consists of:
 ```
 
 
-
 ### For other model
 ```python
 # traned_backbone: train_backbone for TRC
 TRC_model = TRC(train_backbone,...)
 TRC.fit(...)
 ```
+
 ## 🤗 Citing the paper
 
 If our work is useful for your own, you can cite us with the following BibTex entry:
