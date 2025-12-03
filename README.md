@@ -58,8 +58,8 @@ Specifically,each dataset folder args.dataset consists of:
 
 ### For other model
 ```python
-# traned_model: train_mdoel for TRC
-TRC_model = TRC(train_mdoel,...)
+# traned_backbone: train_backbone for TRC
+TRC_model = TRC(train_backbone,...)
 TRC.fit(...)
 ```
 ## 🤗 Citing the paper
