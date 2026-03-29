@@ -3,7 +3,7 @@
 <h1 align="center">
 [IEEE TPAMI]Deep Tabular Representation Corrector
   
-Links: <a href="https://ieeexplore.ieee.org/document/11270244">IEEE Website</a> <a href="https://arxiv.org/abs/2603.16569">arxiv</a>
+Links: [<a href="https://ieeexplore.ieee.org/document/11270244">IEEE Website</a>] [<a href="https://arxiv.org/abs/2603.16569">arxiv</a>]
 </h1>
 
 ## 📖 Overview 
@@ -76,11 +76,12 @@ If our work is useful for your own, you can cite us with the following BibTex en
     author={Ye, Hangting and Wang, Peng and Fan, Wei and Song, Xiaozhuang and Zhao, He and Guo, Dandan and Chang, Yi},
     journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
     title={Deep Tabular Representation Corrector}, 
-    year={2025},
-    volume={},
-    number={},
-    pages={1-15},
+    year={2026},
+    volume={48},
+    number={3},
+    pages={3368-3382},
     keywords={Training;Deep learning;Machine learning;Transformers;Transforms;Space mapping;Predictive models;Electronic mail;Vectors;Redundancy;Tabular data;deep neural networks;tabular representation learning},
     doi={10.1109/TPAMI.2025.3637810}}
+
 
   
