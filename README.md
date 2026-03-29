@@ -3,7 +3,7 @@
 <h1 align="center">
 [IEEE TPAMI]Deep Tabular Representation Corrector
   
-Links: <a href="https://ieeexplore.ieee.org/document/11270244">📙</a>
+Links: <a href="https://ieeexplore.ieee.org/document/11270244">📙</a> <a href="https://arxiv.org/abs/2603.16569">arxiv</a>
 </h1>
 
 ## 📖 Overview 
